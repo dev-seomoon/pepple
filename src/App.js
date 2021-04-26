@@ -9,6 +9,7 @@ function Header() {
   );
 }
 
+ 
 function Profile() {
   return (
     <div className="Profile">
@@ -29,16 +30,35 @@ function Profile() {
 
 function Room() {
   return (
-    <div className="Room">Room</div>
+    <div className="Room">
+      <h2>#Text</h2>
+      <ul className="room_list">
+        <li className="room"></li>
+        <li className="room"></li>
+        <li className="room"></li>
+        <li className="room"></li>
+        <li className="room"></li>
+        <li className="room"></li>
+      </ul>
+    </div>
   )
+}
+
+
+function Section() {
+  return (
+    <div className="Section">
+      <Profile />
+      <Room />
+    </div>
+  );
 }
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Profile />
-      <Room />
+      <Section />
     </div>
   );
 }
