@@ -30,15 +30,34 @@ function Profile() {
 
 function Room() {
   return (
+    <li className="room">
+      <ul className="category_list">
+        <li className="category_item">디자인</li>
+        <li className="category_item">스터디</li>
+      </ul>
+      <h3 className="room_title">방 제목</h3>
+      <h4 className="room_subtitle">방 소제목</h4>
+      <span className="birth_time">1시간 전</span>
+      <div className="member_profile_imgs">
+        <div className="member_profile_img member1"></div>
+        <div className="member_profile_img member2"></div>
+        <div className="member_profile_img member3"></div>
+      </div>
+    </li>
+  );
+}
+
+function Rooms() {
+  return (
     <div className="Room">
       <h2>#Text</h2>
       <ul className="room_list">
-        <li className="room"></li>
-        <li className="room"></li>
-        <li className="room"></li>
-        <li className="room"></li>
-        <li className="room"></li>
-        <li className="room"></li>
+        <Room />
+        <Room />
+        <Room />
+        <Room />
+        <Room />
+        <Room />
       </ul>
     </div>
   )
@@ -49,7 +68,7 @@ function Section() {
   return (
     <div className="Section">
       <Profile />
-      <Room />
+      <Rooms />
     </div>
   );
 }
