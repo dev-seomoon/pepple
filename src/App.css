@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+body {
+    position: relative;
+    background: #F5F7FE;
+}
+
+/* header */
+header {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(135, 135, 135, 0.1);
+    width: 100vw;
+    height: 91px;
+}
+
+h1 {
+    position: absolute;
+    top: 32px;
+    left: 104px;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 18px;
+    letter-spacing: -0.05em;
+    color: #111862;
+}
+
+
+/* profile */
+.Profile {
+    width: 300px;
+    height: 490px;
+    background: #FFFFFF;
+    border: 1px solid #DADCF3;
+    box-sizing: border-box;
+    border-radius: 35px;
+    position: absolute;
+    top: 135px;
+    left: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_img {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #DADCF3;
+    box-sizing: border-box;
+    border-radius: 100%;
+    margin: 32px 0 23px 0;
+}
+
+.user_name {
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.user_job {
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #9F9F9F;
+}
+
+.user_introduction {
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    width: 214px;
+    margin: 21px 0 30px 0;
+}
+
+.modify_profile_bttn {
+    /*
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    */
+    appearance: none;
+    background: #FFFFFF;
+    width: 214px;
+    height: 48px;
+    border: 0.5px solid #B9B9B9;
+    box-sizing: border-box;
+    border-radius: 50px;
+    /* font */
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+/* profile - sns */
+
+.sns_list {
+    display: flex;
+    align-items: center;
+    height: 87px;
+    margin-top: 14px;
+}
+
+.sns_item {
+    width: 37px;
+    height: 37px;
+    background: #F5F6FF;
+    border: 1px solid #C9CDFA;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: 0 11px 0 11px;
+}
