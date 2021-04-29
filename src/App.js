@@ -58,6 +58,12 @@ function Rooms() {
         <Room />
         <Room />
         <Room />
+        <Room />
+        <Room />
+        <Room />
+        <Room />
+        <Room />
+        <Room />
       </ul>
     </div>
   )
