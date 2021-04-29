@@ -8,7 +8,6 @@ function Header() {
     </header>
   );
 }
-
  
 function Profile() {
   return (
@@ -69,7 +68,6 @@ function Rooms() {
   )
 }
 
-
 function Section() {
   return (
     <div className="Section">
@@ -79,11 +77,18 @@ function Section() {
   );
 }
 
+function AddNewRoom() {
+  return (
+    <button className="AddNewRoom">방 새로 만들기</button>
+  );
+}
+
 function App() {
   return (
     <div className="App">
       <Header />
       <Section />
+      <AddNewRoom />
     </div>
   );
 }
