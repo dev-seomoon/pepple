@@ -31,8 +31,8 @@ function Room() {
   return (
     <li className="room">
       <ul className="category_list">
-        <li className="category_item">디자인</li>
-        <li className="category_item">스터디</li>
+        <li className="category_item category1">디자인</li>
+        <li className="category_item category2">스터디</li>
       </ul>
       <h3 className="room_title">방 제목</h3>
       <h4 className="room_subtitle">방 소제목</h4>
