@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/pepple_front/static/css/main.dd0faf85.chunk.css",
-    "main.js": "/pepple_front/static/js/main.1b5ee36f.chunk.js",
-    "main.js.map": "/pepple_front/static/js/main.1b5ee36f.chunk.js.map",
+    "main.css": "/pepple_front/static/css/main.99e9e4f9.chunk.css",
+    "main.js": "/pepple_front/static/js/main.b140e8cd.chunk.js",
+    "main.js.map": "/pepple_front/static/js/main.b140e8cd.chunk.js.map",
     "runtime-main.js": "/pepple_front/static/js/runtime-main.44a3c0c9.js",
     "runtime-main.js.map": "/pepple_front/static/js/runtime-main.44a3c0c9.js.map",
     "static/js/2.f3144bdf.chunk.js": "/pepple_front/static/js/2.f3144bdf.chunk.js",
     "static/js/2.f3144bdf.chunk.js.map": "/pepple_front/static/js/2.f3144bdf.chunk.js.map",
     "index.html": "/pepple_front/index.html",
-    "static/css/main.dd0faf85.chunk.css.map": "/pepple_front/static/css/main.dd0faf85.chunk.css.map",
+    "static/css/main.99e9e4f9.chunk.css.map": "/pepple_front/static/css/main.99e9e4f9.chunk.css.map",
     "static/js/2.f3144bdf.chunk.js.LICENSE.txt": "/pepple_front/static/js/2.f3144bdf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.44a3c0c9.js",
     "static/js/2.f3144bdf.chunk.js",
-    "static/css/main.dd0faf85.chunk.css",
-    "static/js/main.1b5ee36f.chunk.js"
+    "static/css/main.99e9e4f9.chunk.css",
+    "static/js/main.b140e8cd.chunk.js"
   ]
 }
