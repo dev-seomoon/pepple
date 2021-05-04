@@ -108,6 +108,13 @@ h1 {
     color: #000000;
 }
 
+.modify_profile_bttn:hover {
+    background: rgba(218, 220, 243, 0.25);
+    border: 0.5px solid #DADCF3;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
 /* profile - sns */
 
 .sns_list {
@@ -161,6 +168,22 @@ h2 {
     margin: 0 43px 60px 0;
     padding: 16px 26px 21px 26px;
     position: relative;
+}
+
+.room:hover {
+    background: #FBFCFF;
+    border: 2px solid #6138B9;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.02);
+    border-radius: 30px;
+}
+
+.room.selected {
+    background: #FBFCFF;
+    border: 2px solid #6138B9;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.02);
+    border-radius: 30px;
 }
 
 .category_list {
@@ -281,4 +304,12 @@ h2 {
     line-height: 30px;
     letter-spacing: -0.05em;
     color: #452D79;
+}
+
+.AddNewRoom:hover {
+    background: #EFF0FF;
+    border: 1px solid #B4BAFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px rgba(40, 40, 40, 0.1);
+    border-radius: 40px;
 }
