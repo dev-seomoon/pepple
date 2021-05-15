@@ -1,8 +1,8 @@
 import React from "react";
 
-function AddNewRoomBtn() {
+function AddNewRoomBtn({ onClick }) {
     return (
-      <button className="AddNewRoom">방 새로 만들기</button>
+      <button className="AddNewRoom" onClick={onClick}>방 새로 만들기</button>
     );
   }
 
