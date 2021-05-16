@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pepple/static/css/main.9aaabca2.chunk.css",
+    "main.css": "/pepple/static/css/main.4c5cc94e.chunk.css",
     "main.js": "/pepple/static/js/main.e7a65fe3.chunk.js",
     "main.js.map": "/pepple/static/js/main.e7a65fe3.chunk.js.map",
     "runtime-main.js": "/pepple/static/js/runtime-main.bc81d91d.js",
@@ -8,14 +8,14 @@
     "static/js/2.fd9624d8.chunk.js": "/pepple/static/js/2.fd9624d8.chunk.js",
     "static/js/2.fd9624d8.chunk.js.map": "/pepple/static/js/2.fd9624d8.chunk.js.map",
     "index.html": "/pepple/index.html",
-    "static/css/main.9aaabca2.chunk.css.map": "/pepple/static/css/main.9aaabca2.chunk.css.map",
+    "static/css/main.4c5cc94e.chunk.css.map": "/pepple/static/css/main.4c5cc94e.chunk.css.map",
     "static/js/2.fd9624d8.chunk.js.LICENSE.txt": "/pepple/static/js/2.fd9624d8.chunk.js.LICENSE.txt",
     "static/media/modal_exit_icon.4ca3bc71.svg": "/pepple/static/media/modal_exit_icon.4ca3bc71.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.bc81d91d.js",
     "static/js/2.fd9624d8.chunk.js",
-    "static/css/main.9aaabca2.chunk.css",
+    "static/css/main.4c5cc94e.chunk.css",
     "static/js/main.e7a65fe3.chunk.js"
   ]
 }
