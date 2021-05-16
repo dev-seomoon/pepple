@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Modal.css';
+import ModalExitIcon from '../modal_exit_icon.svg';
 
 function AddNewRoomModal({ state, closeModal }) {
     return (
@@ -7,6 +8,7 @@ function AddNewRoomModal({ state, closeModal }) {
             <div className='modal_container'>
                 <header className='modal_header'>
                     방 새로 만들기
+                    <img src={ModalExitIcon} className="modal_exit_btn"/>
                 </header>
                 <section className='modal_contents'>
                     <form className="modal_form">

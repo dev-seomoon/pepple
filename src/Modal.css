@@ -36,6 +36,13 @@
     color: #312944;
     padding-top: 5px;
     box-sizing: border-box;
+    position: relative;
+}
+
+.modal_exit_btn {
+    position: absolute;
+    top: 16px;
+    right: 25px;
 }
 
 .modal_contents {
